@@ -69,3 +69,19 @@ Some AI projects based on paddlehub
 ~~~
 [{'category_id': 0, 'category': '水蛇', 'score': 0.9999205}]
 ~~~
+
+## [水表的数字表盘分割](https://github.com/zbp-xxxp/meaningfulModuleOfAI/tree/main/WatermeterSegmentation)
+
+目前，我国科学技术不断发展和进步，人们工作和生活中使用到的仪器越来越多，仪表仪器是当前社会中不可缺少的测量工具，水表更是走进了千家万户。
+
+传统的人工手动抄表需要耗费大量的人力物力，因此，需要一种更方便快捷的方式检测仪表。
+
+### 效果展示
+
+#### 原图
+<img src="/docs/imgs/ImageSeg_WaterInput.png">
+
+#### 输出结果
+<img src="/docs/imgs/ImageSeg_WaterOutput.png">
+
+## 更多模型请前往[PaddleHub](https://github.com/PaddlePaddle/PaddleHub)查看
