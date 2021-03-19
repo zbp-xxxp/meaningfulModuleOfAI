@@ -39,3 +39,33 @@ Some AI projects based on paddlehub
 ~~~
 [{'category_id': 16, 'category': 'Plectroglyphidodon_dickii', 'score': 0.9932127}]
 ~~~
+
+## [智能生活垃圾分类](https://github.com/zbp-xxxp/meaningfulModuleOfAI/tree/main/refuse_classification)
+
+我国目前每年新增约10亿吨生活垃圾，这些垃圾如果不能得到有效处理，不仅会造成资源的巨大浪费，还会严重影响环境卫生，阻碍我国生态文明建设进程。2019年上海市全面推行生活垃圾强制分类，标志着我国垃圾分类已经进入制度化推广的新阶段。然而传统的生活垃圾人工分类方式工作量大、效果欠佳。为使传统垃圾桶更加人性化、智能化，因此我们提出了基于PaddlePaddle的智能垃圾分类系统。
+
+### 效果展示
+
+#### 原图
+<img src="/docs/imgs/Image_Classification_harmful_garbage.png">
+
+#### 输出结果
+~~~
+[[{'category': 'Harmful', 'category_id': 0, 'score': 0.9257174134254456}]]
+~~~
+
+## [野外蛇种识别](https://github.com/zbp-xxxp/meaningfulModuleOfAI/tree/main/SnakeIdentification)
+
+毒蛇伤人事件在全世界范围内已造成相当一部分的死亡和受伤案例，这对于公众健康是一个重要的却又容易被忽视的影响因素。一部分人被蛇咬后无法准确地区分蛇的种类，无法知道蛇有毒与否，并且还因为不具备一定的自救知识而被蛇咬后不知所措。
+
+基于此，开发一款能帮助人们在野外被蛇咬后准确识别蛇的种类的模型很有必要，它能给人们在第一时间内提供自救方案，帮助人们在被蛇咬后的紧急处理。
+
+### 效果展示
+
+#### 原图
+<img src="/docs/imgs/Image_Classification_Snake.png">
+
+#### 输出结果
+~~~
+[{'category_id': 0, 'category': '水蛇', 'score': 0.9999205}]
+~~~
